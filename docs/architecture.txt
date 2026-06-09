@@ -1,0 +1,16 @@
+Attacker VM (192.168.0.2)
+        |
+        v
+Cowrie Honeypot (192.168.0.4:2222)
+        |
+        v
+Grafana Alloy
+        |
+        v
+Loki
+        |
+        v
+Grafana Dashboard
+
+Additional Service:
+Fake Website (192.168.0.4:8080)

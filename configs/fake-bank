@@ -1,0 +1,10 @@
+server {
+    listen 8080;
+    server_name _;
+
+    root /var/www/fake-bank;
+    index index.html;
+
+    access_log /var/log/nginx/fake-bank-access.log;
+    error_log /var/log/nginx/fake-bank-error.log;
+}
